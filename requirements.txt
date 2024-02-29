@@ -9,9 +9,9 @@ heroku3
 httpx
 lyricsgenius
 motor
-pillow==1.0.9
+pillow==9.5.0
 psutil
-py-tgcalls==3.0.0
+py-tgcalls==1.0.9
 pykeyboard
 pyrogram==2.0.106
 python-dotenv
