@@ -60,7 +60,7 @@ def stream_markup_timer(_, videoid, chat_id, played, dur):
             )
         ],
         [
-            InlineKeyboardButyon(
+            InlineKeyboardButton(
                 text="anuuuuuuuuu", url="https://t.me/nunagabut2",
             )
         ],
