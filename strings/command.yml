@@ -13,7 +13,7 @@
 
 # Bot Commands
 PING_COMMAND : ["ping"]
-START_COMMAND : ["mstart"]
+START_COMMAND : ["start"]
 HELP_COMMAND : ["help"]
 SETTINGS_COMMAND : ["settings", "setting"]
 RELOAD_COMMAND : ["admincache", "reload"]
@@ -104,7 +104,7 @@ BLOCKED_COMMAND : ["blockedusers"]
 SPEEDTEST_COMMAND : ["speedtest"]
 
 #Voice chat commands
-ACTIVEVC_COMMAND : ["vcs"]
+ACTIVEVC_COMMAND : ["vc"]
 ACTIVEVIDEO_COMMAND : ["activevideo"]
 
 #Gban Commands
