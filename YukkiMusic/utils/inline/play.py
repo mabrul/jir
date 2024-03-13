@@ -56,7 +56,7 @@ def stream_markup_timer(_, videoid, chat_id, played, dur):
                 text="ʙᴏʏʏ", url="https://t.me/rewe_anu",
             ),
             InlineKeyboardButton(
-                text="ɢɪʀʟ ᴍᴇ", url="https://t.me/rew_e",
+                text="sᴛᴀʀʙᴏʏ", url="https://t.me/emang_boyeh",
             )
         ],
         [
