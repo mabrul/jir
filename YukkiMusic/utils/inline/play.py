@@ -43,26 +43,11 @@ def stream_markup_timer(_, videoid, chat_id, played, dur):
         ],
         [
             InlineKeyboardButton(
-                text=_["PL_B_2"],
-                callback_data=f"add_playlist {videoid}",
+                text="ᴅᴏɴᴀᴛᴇ", url="https://link.dana.id/qr/4hs6ilfu",
             ),
             InlineKeyboardButton(
-                text=_["PL_B_3"],
-                callback_data=f"PanelMarkup {videoid}|{chat_id}",
+                text="ᴀʙᴏᴜᴛ ᴇᴡᴇ", url="https://t.me/nunagabut2",
             ),
-        ],
-        [
-            InlineKeyboardButton(
-                text="ʙᴏʏʏ", url="https://t.me/rewe_anu",
-            ),
-            InlineKeyboardButton(
-                text="sᴛᴀʀʙᴏʏ", url="https://t.me/emang_boyeh",
-            )
-        ],
-        [
-            InlineKeyboardButton(
-                text="ᴀʙᴏᴜᴛ ᴇᴡᴇᴇ", url="https://t.me/nunagabut2",
-            )
         ],
         [
             InlineKeyboardButton(
