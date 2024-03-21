@@ -53,6 +53,8 @@ def stream_markup_timer(_, videoid, chat_id, played, dur):
             inlineKeyboardButton(
                 text="ʙɪJɪ ɴᴀsɪ", url="https://t.me/rewe_anu",
             ),
+        ],
+        [
             InlineKeyboardButton(
                 text=_["CLOSEMENU_BUTTON"], callback_data="close"
             )
