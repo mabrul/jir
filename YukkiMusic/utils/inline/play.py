@@ -20,7 +20,7 @@ selections = [
     "—▷————⁠—————",
     "———▷———————",
     "——————▷————",
-    "—————⁠————▷—",
+    "—————⁠———▷——",
     "—▷—————————",
     "———▷——⁠—————",
     "—————▷—————",
@@ -47,6 +47,11 @@ def stream_markup_timer(_, videoid, chat_id, played, dur):
             ),
             InlineKeyboardButton(
                 text="ᴀʙᴏᴜᴛ ᴇᴡᴇ", url="https://t.me/nunagabut2",
+            ),
+        ],
+        [
+           inlineKeyboardButton(
+                text="ʙɪJɪ ɴᴀsɪ", url="https://t.me/rewe_anu",
             ),
         ],
         [
