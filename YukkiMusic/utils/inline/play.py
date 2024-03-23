@@ -13,17 +13,20 @@ import random
 from pyrogram.types import InlineKeyboardButton
 
 selections = [
-    "✄·─·─·─·─·─·─·─·─·─"
-     "-ˋˏ✄·─·─·─·─·─·─·─·─",
-     "-ˋˏ-ˋˏ✄·─·─·─·─·─·─·─",
-     "-ˋˏ-ˋˏ-ˋˏ✄·─·─·─·─·─·─",
-     "-ˋˏ-ˋˏ-ˋˏ-ˋˏ✄·─·─·─·─·─",
-     "-ˋˏ-ˋˏ-ˋˏ-ˋˏ-ˋˏ✄·─·─·─·─",
-     "-ˋˏ-ˋˏ-ˋˏ-ˋˏ-ˋˏ-ˋˏ✄·─·─·─",
-     "-ˋˏ-ˋˏ-ˋˏ-ˋˏ-ˋˏ-ˋˏ-ˋˏ✄·─·─",
-     "-ˋˏ-ˋˏ-ˋˏ-ˋˏ-ˋˏ-ˋˏ-ˋˏ-ˋˏ✄·─",
-     "-ˋˏ-ˋˏ-ˋˏ-ˋˏ-ˋˏ-ˋˏ-ˋˏ-ˋˏ-ˋˏ✄·",
-     "-ˋˏ-ˋˏ-ˋˏ-ˋˏ-ˋˏ-ˋˏ-ˋˏ-ˋˏ-ˋˏ-ˋˏ✄",
+    "CROT┅┅┅┅┅┅",
+    "┅CROT┅┅┅┅┅",
+    "┅┅CROT┅┅┅┅",
+    "┅┅┅CROT┅┅┅",
+    "┅┅┅┅CROT┅┅",
+    "┅┅┅┅┅CROT┅",
+    "┅┅┅┅┅┅CROT",
+    "CROT┅┅┅┅┅┅",
+    "┅CROT┅┅┅┅┅",
+    "┅┅CROT┅┅┅┅",
+    "┅┅┅CROT┅┅┅",
+    "┅┅┅┅CROT┅┅",
+    "┅┅┅┅┅CROT┅",
+    "┅┅┅┅┅┅CROT",
 ]
 
 
@@ -44,7 +47,7 @@ def stream_markup_timer(_, videoid, chat_id, played, dur):
                 text="ᴅᴏɴᴀᴛᴇ", url="https://link.dana.id/qr/4hs6ilfu",
             ),
             InlineKeyboardButton(
-                text="ᴀʙᴏᴜᴛ ᴇᴡᴇ", url="https://t.me/nunagabut2",
+                text="ɢɪʀʟ", url="https://t.me/ngnttddddd",
             ),
         ],
         [
