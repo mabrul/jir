@@ -47,12 +47,12 @@ def stream_markup_timer(_, videoid, chat_id, played, dur):
                 text="ᴅᴏɴᴀᴛᴇ", url="https://link.dana.id/qr/4hs6ilfu",
             ),
             InlineKeyboardButton(
-                text="ɢɪʀʟ", url="https://t.me/ngnttddddd",
+                text="ɢᴜᴀᴀ", url="https://t.me/rewe_anu",
             ),
         ],
         [
             InlineKeyboardButton(
-                text="ʙɪJɪ ɴᴀsɪ", url="https://t.me/rewe_anu",
+                text="sᴜʙs ᴄʜ ғʀᴇᴇ ᴇᴛᴍɪɴ", url="https://t.me/nunagabut2",
             ),
         ],
         [
