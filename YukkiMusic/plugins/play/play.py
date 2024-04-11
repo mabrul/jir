@@ -47,6 +47,7 @@ PLAY_COMMAND = get_command("PLAY_COMMAND")
     & filters.group
     & ~BANNED_USERS
 )
+@subcribe
 @PlayWrapper
 async def play_commnd(
     client,
