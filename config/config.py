@@ -32,6 +32,11 @@ DURATION_LIMIT_MIN = int(
     getenv("DURATION_LIMIT", "60")
 )  # Remember to give value in Minutes
 
+# MUST JOIN
+MUST_JOIN = getenv("MUST_JOIN", None)
+if MUST_JOIN.startswith("@"):
+    MUST_JOIN = MUST_JOIN.replace("@", "nunagabut2")
+
 # Duration Limit for downloading Songs in MP3 or MP4 format from bot
 SONG_DOWNLOAD_DURATION = int(
     getenv("SONG_DOWNLOAD_DURATION_LIMIT", "180")
