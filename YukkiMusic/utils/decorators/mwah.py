@@ -1,3 +1,4 @@
+"""
 from pyrogram.errors import ChatAdminRequired, ChatWriteForbidden, UserNotParticipant
 from pyrogram.types import InlineKeyboardButton, InlineKeyboardMarkup, Message
 from YukkiMusic import app
@@ -38,3 +39,4 @@ def subcribe(func):
         return await func(_, message)
 
     return wrapper
+"""
