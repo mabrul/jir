@@ -353,7 +353,7 @@ from pyrogram.errors import (ChatAdminRequired, ChatWriteForbidden,
 from pyrogram.types import InlineKeyboardButton, InlineKeyboardMarkup, Message
 
 from YukkiMusic import app
-from YukkiMusic.config import *
+from YukkiMusic.import *
 from YukkiMusic.plugins.eval import edit_or_reply as eor
 
 
