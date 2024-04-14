@@ -343,3 +343,57 @@ def panel_markup_3(_, videoid, chat_id):
         ],
     ]
     return buttons
+
+#NYOBA BANH
+
+from pyrogram import *
+from pyrogram.enums import ChatMemberStatus
+from pyrogram.errors import (ChatAdminRequired, ChatWriteForbidden,
+                             UserNotParticipant)
+from pyrogram.types import InlineKeyboardButton, InlineKeyboardMarkup, Message
+
+from YukkiMusic import app
+from YukkiMusic.config import *
+from YukkiMusic.plugins.eval import edit_or_reply as eor
+
+
+@app.on_message(filters.incoming & filters.private, group=-1)
+async def must_join_channel(bot: Client, msg: Message):
+    if not MUST_JOIN:
+        return
+    try:
+        try:
+            member = await bot.get_chat_member(MUST_JOIN, msg.from_user.id)
+            if member.status == ChatMemberStatus.BANNED:
+                await eor(
+                    msg,
+                    text="**Silahkan Hubungi @rewe_anu agar anda bisa menggunakan Bot ini!**",
+                )
+                await msg.stop_propagation()
+                return
+            elif member.status == ChatMemberStatus.LEFT:
+                await eor(
+                    msg,
+                    text="**Bot ini tidak dapat digunakan jika anda sudah keluar dari Channel!**",
+                )
+                return
+        except UserNotParticipant:
+            if MUST_JOIN.isalpha():
+                link = "https://t.me/" + MUST_JOIN
+            else:
+                chat_info = await bot.get_chat(MUST_JOIN)
+                link = chat_info.invite_link
+            try:
+                await eor(
+                    msg,
+                    f"**Sebelum menggunakan Bot ini, Anda wajib join ke channel terlebih dahulu ke [Channel]({link})!",
+                    disable_web_page_preview=True,
+                    reply_markup=InlineKeyboardMarkup(
+                        [[InlineKeyboardButton("Join Sini", url=link)]]
+                    ),
+                )
+                await msg.stop_propagation()
+            except ChatWriteForbidden:
+                pass
+    except ChatAdminRequired:
+        print(f"Jadikan saya admin di : {MUST_JOIN} !")
